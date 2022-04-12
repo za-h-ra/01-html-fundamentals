@@ -28,7 +28,9 @@
           height="50"
         />
 
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+        <p id="author">
+          Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+        </p>
 
         <img
           src="img/post-img.jpg"
@@ -97,7 +99,7 @@
 
     <aside>
       <h4>Related Posts</h4>
-      <ul>
+      <ul class="related">
         <li>
           <img
             src="img/related-1.jpg"
@@ -106,7 +108,7 @@
             height="75"
           />
           <a href="#">How to Learn Web Development</a>
-          <p>by Jonas Schmedtmann</p>
+          <p class="related_author">by Jonas Schmedtmann</p>
         </li>
         <li>
           <img
@@ -116,7 +118,7 @@
             height="75"
           />
           <a href="#">The Unknown Powers of CSS</a>
-          <p>by Jim Dillon</p>
+          <p class="related_author">by Jim Dillon</p>
         </li>
         <li>
           <img
@@ -126,13 +128,13 @@
             width="75"
           />
           <a href="#">Why JavaScript is Awesome</a>
-          <p>by Matilda</p>
+          <p class="related_author">by Matilda</p>
         </li>
       </ul>
     </aside>
 
     <footer>
-      <p>Copyright &copy; 2027 by The Code Magazine</p>
+      <p id="copyright">Copyright &copy; 2027 by The Code Magazine</p>
     </footer>
   </body>
 </html>
