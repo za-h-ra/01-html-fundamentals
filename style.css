@@ -185,3 +185,31 @@ button {
   bottom: 50px;
   right: 50px;
 }
+
+/* PSEUDO-ELEMENTS */
+
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+h3 + p::first-line {
+  color: red;
+}
+
+h2::after {
+  content: 'TOP';
+  background-color: #ffe70e;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -15px;
+  right: -25px;
+  color: #000000;
+}
+
+h2 {
+  position: relative;
+}
