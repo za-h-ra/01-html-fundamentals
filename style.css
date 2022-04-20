@@ -6,6 +6,7 @@
 body {
   color: #444;
   font-family: sans-serif;
+  position: relative;
 }
 
 .container {
@@ -174,4 +175,13 @@ footer p {
 .post-img {
   width: 100%;
   height: auto;
+}
+
+button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
 }
