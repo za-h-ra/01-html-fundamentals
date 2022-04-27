@@ -7,10 +7,11 @@ body {
   color: #444;
   font-family: sans-serif;
   position: relative;
+  border-top: 4px solid #1098ad;
 }
 
 .container {
-  width: 700px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -18,7 +19,6 @@ body {
   background-color: #dcd9d9;
   padding: 20px 40px;
   margin-bottom: 60px;
-  background-color: red;
 }
 
 nav {
@@ -146,7 +146,6 @@ a:visited {
 a:hover {
   color: orangered;
   font-weight: bold;
-  text-decoration: underline wavy orangered;
 }
 
 a:active {
@@ -221,7 +220,6 @@ h2 {
 }
 
 .author {
-  /* padding-left: 80px; */
   padding-top: 10px;
   float: left;
   margin-left: 20px;
@@ -233,6 +231,7 @@ h1 {
 
 nav {
   float: right;
+  background-color: red;
 }
 
 .clear {
@@ -243,4 +242,18 @@ nav {
   clear: both;
   content: '';
   display: block;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+
+aside {
+  width: 300px;
+  float: right;
+}
+
+footer {
+  clear: both;
 }
